@@ -4,7 +4,7 @@ import { BottomNav } from "../components/BottomNav";
 
 export function MainLayout() {
   return (
-    // <MobileShell>
+    <MobileShell>
       <div
         style={{
           height: "100%",
@@ -27,6 +27,6 @@ export function MainLayout() {
         {/* Bottom navigation — always visible */}
         <BottomNav />
       </div>
-    // </MobileShell>
+    </MobileShell>
   );
 }
